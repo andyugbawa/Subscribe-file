@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(74, 123, 131);
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 60px auto 0;
+}
+
+ #time-piece{
+    font-size: 50px;
+    color: white;
+ }
+
+
+.notification-box{
+   width: 70%;
+   height: 400px;
+   background-color: rgb(27, 41, 53);
+   padding: 20px 0 0 20px;
+ 
+}
+.timer-content{
+    display: flex;
+    justify-content: center;
+
+}
+.alert-content{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2px; 
+}
+#ok-btn{
+    display: none;
+    padding: 10px 40px 10px 40px;
+    border: 2px solid orange;
+    background: red;
+    color:black;
+    font-size: 18px;
+    font-weight: 700;
+}
+#sub-btn{
+    display: none;
+    padding: 10px 40px 10px 40px;
+    border: 2px solid orange;
+    background: red;
+    color:white;
+    font-size: 18px;
+    font-weight: 700;
+}
+#bell-btn{
+    display: none;
+    padding: 10px 40px 10px 40px;
+    border: 2px solid orange;
+    background: red;
+    color:black;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+#next-btn{
+    padding: 10px 40px 10px 40px; 
+    margin:20px 0 0 0px;
+    background: rgb(195, 195, 209);
+    border-radius: 20px;
+    border: none;
+    display: none;
+}
+.image-content{
+    padding: 0 0 100px 350px;
+    /* display: flex;
+    justify-content: center; */
+  
+}
+#image{
+    width:200px;
+    height: 200px;
+    display: none;
+   
+}
+
+.fa-bell-ring{
+    color:blue;
+}
